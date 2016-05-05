@@ -23,6 +23,7 @@
 ## Created: 2016-05-04
 
 function ergebnis;
+format long;
 printf("Ergebnisse in der Reihenfolge a), b), c) ")
 for i = 3:3:30;
   i
