@@ -30,4 +30,9 @@ for i = 3:3:30;
   euler2(5.5,i)
   euler3(-0.5,i)
 end;
+printf("Auffaellig ist, dass die erste Methode fuer bestimmte n anfangs negative Werte ausgibt.")
+printf("Dies liegt daran, dass es eine alternierende Reihe ist.")
+printf("Das gilt auch fuer die letzte Methode, jedoch sind die Werte so klein, dass die Reihe sehr schnell konvergiert.")
+printf("Die zweite Methode ist nicht anfaellig fuer bestimmte n, da nur ueber positive Werte summiert wird.")
+printf("Kleine Exponenten deren Kehrwert genommen wird und spaeter potenziert werden sind am Besten.")
 endfunction;
