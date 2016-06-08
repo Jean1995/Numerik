@@ -1,0 +1,20 @@
+function [x] = forward_solve (U,z)
+x = [];
+n = length(z);
+j = 1;
+for l=1:1:n;
+  U(l,l) = 1;
+end;
+x(j) = z(j)/U(j,j);
+j += 1;
+while (j<=n);
+  b = 0;
+  i = 1;
+  while (i<j);
+    b = b + x(i)*U(j,i);
+    i +=1;
+  end;
+  x(j) = (z(j) - b)/U(j,j);
+  j +=1;
+end;
+endfunction;
