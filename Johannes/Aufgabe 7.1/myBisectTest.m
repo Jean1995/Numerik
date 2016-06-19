@@ -4,3 +4,5 @@ f = @function1;
 N = [1:1:length(e)];
 semilogy(N, e,'r-');
 endfunction;
+
+% Stimmt mit Erwartung überein

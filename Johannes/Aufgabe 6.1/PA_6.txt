@@ -1,0 +1,3 @@
+Das Residdum, bzw. der Fehler, wird mit steigendem n größer.
+Dies liegt vermutlich an den vorgenommenen Divisionen, da z.B. bereits ab n=16 durch Werte der Größenordnung 10^16 geteilt werden muss.
+Hier werden die Limitationen des Zahlenbereiches von Octave erreicht: Die Rundungsoperationen führen zu mit n steigenden Fehlern.
